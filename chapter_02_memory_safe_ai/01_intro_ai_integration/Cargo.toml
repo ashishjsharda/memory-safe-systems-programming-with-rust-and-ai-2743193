@@ -1,0 +1,8 @@
+[package]
+name = "01_intro_ai_integration"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+smartcore = "0.3.2"
+
