@@ -1,0 +1,26 @@
+[package]
+name = "02_debugging_with_github_copilot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "error_handling"
+path = "src/examples/error_handling.rs"
+
+[[bin]]
+name = "logic_errors"
+path = "src/examples/logic_errors.rs"
+
+[[bin]]
+name = "off_by_one"
+path = "src/examples/off_by_one.rs"
+
+[[bin]]
+name = "ownership_issues"
+path = "src/examples/ownership_issues.rs"
+
+[[bin]]
+name = "testing_examples"
+path = "src/examples/testing_examples.rs"
