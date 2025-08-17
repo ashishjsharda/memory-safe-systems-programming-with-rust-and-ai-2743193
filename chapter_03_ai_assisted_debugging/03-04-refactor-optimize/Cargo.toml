@@ -1,0 +1,10 @@
+[package]
+name = "refactor_optimize"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "01_legacy_fragile"
+path = "src/examples/01_legacy_fragile.rs"
+
+[dependencies]
