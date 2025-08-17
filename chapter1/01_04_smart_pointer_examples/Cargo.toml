@@ -1,0 +1,26 @@
+[package]
+name = "smart_pointers_examples"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "box_examples"
+path = "src/examples/box_examples.rs"
+
+[[bin]]
+name = "custom_smart_pointer"
+path = "src/examples/custom_smart_pointer.rs"
+
+[[bin]]
+name = "rc_examples"
+path = "src/examples/rc_examples.rs"
+
+[[bin]]
+name = "refcell_examples"
+path = "src/examples/refcell_examples.rs"
+
+[[bin]]
+name = "weak_examples"
+path = "src/examples/weak_examples.rs"
