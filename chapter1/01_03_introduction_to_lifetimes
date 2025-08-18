@@ -1,0 +1,22 @@
+[package]
+name = "lifetimes_introduction"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[example]]
+name = "dangling_reference"
+path = "src/examples/dangling_reference.rs"
+
+[[example]]
+name = "first_word_example"
+path = "src/examples/first_word_example.rs"
+
+[[example]]
+name = "lifetime_elision"
+path = "src/examples/lifetime_elision.rs"
+
+[[example]]
+name = "struct_lifetimes"
+path = "src/examples/struct_lifetimes.rs"
